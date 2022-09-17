@@ -24,7 +24,7 @@ public class jdbccon {
 		}catch(Exception  e) {
 			System.out.print(e);
 		}
-			System.out.print("hi");
+			System.out.print("histr");
 	}
 
 }
