@@ -22,8 +22,10 @@ public class jdbccon {
 				conn.close();
 			}
 		}catch(Exception  e) {
-			System.out.print(e);
+			System.out.print(e.getMessage());
+			e.printStackTrace();
 		}
+		
 			System.out.print("histr");
 	}
 
